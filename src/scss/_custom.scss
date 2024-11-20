@@ -1,0 +1,27 @@
+$grid-breakpoints: (
+	xs: 0,
+	lg: 1024px,
+	xxl: 1440px,
+);
+
+$container-max-widths: (
+	xs: 100%,
+	lg: calc(940px + var(--bs-gutter-x) * 0.5 * 2),
+	xxl: calc(1400px + var(--bs-gutter-x) * 0.5 * 2),
+);
+
+$spacers: (
+	0: 0,
+	1: $spacer * 0.25,
+	2: $spacer * 0.5,
+	3: $spacer,
+	4: $spacer * 1.25,
+	5: $spacer * 2.5,
+);
+
+$text-color: #2f2222;
+$secondary-text-color: rgba(47, 34, 34, 0.4);
+$brand-color: #5d71dd;
+$secondary-brand-color: #7d8de4;
+
+$font-family: "Futura PT", sans-serif;
